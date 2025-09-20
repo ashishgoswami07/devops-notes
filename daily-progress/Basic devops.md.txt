@@ -1,0 +1,59 @@
+What is DevOps?
+DevOps is a set of practices, tools, and a cultural philosophy that automates and integrates the processes between software development (Dev) and IT operations (Ops) teams. The main goal is to shorten the systems development life cycle and provide continuous delivery with high software quality. 🤝
+
+Core Principles (CAMS)
+DevOps culture can be summarized by the acronym CAMS:
+
+Culture: It's about breaking down silos between development and operations teams. The focus is on shared responsibility, collaboration, and communication.
+
+Automation: Automate everything you can! This includes the build, testing, and deployment processes to make them faster and more reliable. This is often called a CI/CD pipeline.
+
+Measurement: Collect data on everything from build times to application performance. Key metrics help you understand what's working and where improvements are needed.
+
+Sharing: Foster a culture of transparency. Teams should share their knowledge, tools, and feedback to improve the overall process.
+
+The DevOps Lifecycle
+The DevOps lifecycle is an iterative process, often visualized as an infinite loop.
+
+Plan: Define business requirements, create a roadmap, and manage tasks.
+
+Code: Write and manage the source code for the application.
+
+Build: Compile the source code into a build or artifact. This is where Continuous Integration (CI) begins.
+
+Test: Run automated tests to ensure code quality and find bugs early.
+
+Release: The artifact is ready for deployment. This phase includes approvals and final preparations.
+
+Deploy: Push the release into the production environment. This is the core of Continuous Deployment/Delivery (CD).
+
+Operate: Manage and maintain the application in the production environment.
+
+Monitor: Continuously monitor the application's performance and user experience to gather feedback for the next planning phase.
+
+Key Tools by Stage
+Here are some popular tools used in different stages of the DevOps lifecycle:
+
+Stage	Tool Category	Popular Tools
+Plan	Project Management	Jira, Trello, Asana
+Code	Version Control	Git, GitHub, GitLab, Bitbucket
+Build	CI/Build Server	Jenkins, GitLab CI, CircleCI, Travis CI
+Test	Automation Testing	Selenium, JUnit, pytest
+Release	Artifact Repository	Nexus, Artifactory
+Deploy	Configuration Management	Ansible, Puppet, Chef
+Operate	Containerization	Docker, Kubernetes (K8s)
+Monitor	Monitoring & Logging	Prometheus, Grafana, ELK Stack, Datadog
+
+Export to Sheets
+Benefits of DevOps
+Adopting DevOps practices can lead to significant improvements:
+
+🚀 Faster Time to Market: Automating the delivery pipeline allows for quicker and more frequent releases.
+
+✅ Improved Quality & Reliability: Continuous testing and monitoring help catch bugs early and ensure application stability.
+
+🤝 Enhanced Collaboration: Breaks down barriers between teams, fostering a more effective and innovative environment.
+
+🔒 Increased Security: Integrating security practices into the pipeline (DevSecOps) makes applications more secure from the start.
+
+💡 Quicker Recovery: In case of failure, automated and well-defined processes allow for faster recovery times.
